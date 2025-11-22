@@ -13,6 +13,7 @@ build/
 venv/
 ENV/
 env/
+.venv
 
 # IDEs
 .vscode/
@@ -32,6 +33,10 @@ env/
 # Training Data & Intermediate Datasets (large - keep only final_dataset)
 training_data/
 labeled_data/
+
+# Final Dataset Images & Labels (too large for git - 1850 images ~20MB)
+final_dataset/images/
+final_dataset/labels/
 
 # Training Outputs (generated during training)
 trained_models/*/weights/*.pt
