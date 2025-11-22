@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# YOLO Model Weights (large files - download separately)
+*.pt
+*.pth
+*.weights
+*.onnx
+!yolov8n.pt
+
+# Training Data & Intermediate Datasets (large - keep only final_dataset)
+training_data/
+labeled_data/
+
+# Training Outputs (generated during training)
+trained_models/*/weights/*.pt
+trained_models/*/weights/*.onnx
+trained_models/*/runs/
+runs/
+*.cache
+
+# Training visualizations (can be regenerated)
+trained_models/*/train_batch*.jpg
+trained_models/*/val_batch*.jpg
+trained_models/*/labels*.jpg
+trained_models/*/confusion_matrix*.png
+trained_models/*/results.png
+trained_models/*/PR_curve.png
+trained_models/*/F1_curve.png
+
+# Logs
+*.log
+nohup.out
+
+# Temporary files
+*.tmp
+temp_frame.jpg
+temp_*.jpg
+
+# Videos (too large - add separately if needed)
+*.mp4
+*.avi
+*.mov
+*.mkv
+!ball_tracking_example.mp4
+
+# Data files that can be regenerated
+*.csv
+tracking_data/*.json
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Keep important files (override above rules)
+!final_dataset/data.yaml
+!requirements_yolo.txt
+
