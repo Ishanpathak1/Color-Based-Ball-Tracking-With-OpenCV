@@ -1,0 +1,6 @@
+path: /Users/ishanpathak/Desktop/Color-Based-Ball-Tracking-With-OpenCV/final_dataset
+train: images
+val: images
+
+nc: 1
+names: ['ball']

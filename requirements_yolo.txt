@@ -1,0 +1,26 @@
+# YOLO Ball Tracking Requirements
+# Install with: pip install -r requirements_yolo.txt
+
+# Deep Learning Framework
+ultralytics>=8.0.0        # YOLOv8 for object detection
+torch>=2.0.0              # PyTorch backend for YOLO
+torchvision>=0.15.0       # Vision utilities
+
+# Computer Vision
+opencv-python>=4.8.0      # OpenCV for image processing
+opencv-contrib-python>=4.8.0  # Additional OpenCV modules
+
+# Numerical Computing
+numpy>=1.24.0             # Array operations
+
+# Utilities
+Pillow>=10.0.0            # Image processing
+matplotlib>=3.7.0         # Plotting and visualization (optional)
+pandas>=2.0.0             # Data analysis (optional)
+
+# Video Processing (optional, for better codec support)
+# ffmpeg-python>=0.2.0
+
+# Note: For Raspberry Pi, you may need to install PyTorch differently:
+# pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
