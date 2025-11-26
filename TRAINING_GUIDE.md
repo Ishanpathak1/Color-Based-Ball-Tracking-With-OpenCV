@@ -2,7 +2,7 @@
 
 Complete guide on how we trained a custom YOLOv8 model to achieve **96.2% accuracy** for ball detection.
 
-## 📋 Table of Contents
+##📋 Table of Contents
 
 1. [Overview](#overview)
 2. [Training Pipeline](#training-pipeline)
@@ -15,7 +15,7 @@ Complete guide on how we trained a custom YOLOv8 model to achieve **96.2% accura
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 ### What We Built
 
@@ -53,7 +53,7 @@ A custom YOLOv8 model specifically trained to detect **one type of ball** (green
 
 ---
 
-## 🔄 Training Pipeline
+##  Training Pipeline
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -89,7 +89,7 @@ A custom YOLOv8 model specifically trained to detect **one type of ball** (green
 
 ---
 
-## 📹 Data Collection
+##  Data Collection
 
 ### Step 1: Video Recording
 
@@ -136,7 +136,7 @@ Our dataset included:
 
 ---
 
-## 🏷️ Data Labeling
+##  Data Labeling
 
 ### Overview
 
@@ -244,7 +244,7 @@ names: ['ball']        # Class names
 
 ---
 
-## 🎓 Training Process
+##  Training Process
 
 ### Training Configuration
 
@@ -359,7 +359,7 @@ Disk I/O: Reading images at ~300 MB/s
 
 ---
 
-## 📊 Results & Analysis
+##  Results & Analysis
 
 ### Final Model Performance
 
@@ -451,7 +451,7 @@ Custom:       "Definitely YOUR green ball with 98.5% confidence!"
 
 ---
 
-## 🚀 Using the Trained Model
+##  Using the Trained Model
 
 ### Basic Usage
 
@@ -506,7 +506,7 @@ Both files are optimized (optimizer stripped) for deployment.
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Training Issues
 
@@ -608,7 +608,7 @@ Solutions:
 
 ---
 
-## 📈 Training Improvements (Future)
+##  Training Improvements (Future)
 
 ### To Achieve 97-99% Accuracy
 
@@ -669,7 +669,7 @@ Solutions:
 
 ---
 
-## 🎓 Key Takeaways
+##  Key Takeaways
 
 ### What We Learned
 
@@ -714,7 +714,7 @@ Solutions:
 
 ---
 
-## 📚 Additional Resources
+##  Additional Resources
 
 ### Understanding YOLO
 
@@ -734,15 +734,15 @@ Solutions:
 
 ---
 
-## 🎯 Conclusion
+##  Conclusion
 
 We successfully trained a custom YOLOv8 model that:
 
-- ✅ Achieves **96.2% accuracy** (professional-grade)
-- ✅ Works in **real-time** on CPU (8-15 FPS)
-- ✅ Trained on only **1,850 images** (transfer learning)
-- ✅ Robust to **lighting, motion blur, occlusions**
-- ✅ **Production-ready** for deployment
+-  Achieves **96.2% accuracy** (professional-grade)
+-  Works in **real-time** on CPU (8-15 FPS)
+- Trained on only **1,850 images** (transfer learning)
+-  Robust to **lighting, motion blur, occlusions**
+-  **Production-ready** for deployment
 
 This demonstrates that with:
 - Quality data collection
@@ -755,7 +755,7 @@ You can build **professional computer vision systems** without:
 - Expensive GPU clusters
 - Advanced research background
 
-**This is the same process used by professionals in sports, robotics, and autonomous vehicles!** 🚀
+**This is the same process used by professionals in sports, robotics, and autonomous vehicles!** 
 
 ---
 
