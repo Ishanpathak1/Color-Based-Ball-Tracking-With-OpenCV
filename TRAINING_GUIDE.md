@@ -2,7 +2,7 @@
 
 Complete guide on how we trained a custom YOLOv8 model to achieve **96.2% accuracy** for ball detection.
 
-##📋 Table of Contents
+## Table of Contents
 
 1. [Overview](#overview)
 2. [Training Pipeline](#training-pipeline)
