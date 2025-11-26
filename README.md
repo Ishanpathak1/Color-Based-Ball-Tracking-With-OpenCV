@@ -16,7 +16,7 @@ This project demonstrates three different approaches to ball tracking, from trad
 3. **YOLO-Based Tracking** - Deep learning object detection
 4. **Custom Trained Model** - YOLOv8 fine-tuned on custom dataset (96.2% accuracy!)
 
-## 📊 Method Comparison
+##  Method Comparison
 
 | Method | Speed (FPS) | Accuracy | Lighting Robust | Setup Complexity | Use Case |
 |--------|-------------|----------|-----------------|------------------|----------|
